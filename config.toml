@@ -1,3 +1,33 @@
-baseURL = "http://example.org/"
+baseURL = "http://wucke13.de/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "wucke13.de"
+theme = "accessible-minimalism"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+  [[menu.main]]
+    name = "Air"
+    url = "https://air.wucke13.de/"
+    weight = 3
+  [[menu.main]]
+    name = "Git"
+    url = "https://git.wucke13.de/"
+    weight = 4
+  [[menu.main]]
+    name = "Mail"
+    url = "https://mail.wucke13.de/"
+    weight = 5
+  [[menu.main]]
+    name = "Ristorante"
+    url = "https://wucke13.de/ristorante"
+    weight = 6
+
