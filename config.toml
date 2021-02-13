@@ -28,6 +28,6 @@ enableRobotsTXT = true
     weight = 5
   [[menu.main]]
     name = "Ristorante"
-    url = "https://wucke13.de/ristorante"
+    url = "https://ristorante.wucke13.de/"
     weight = 6
 
